@@ -1,6 +1,6 @@
 # Payment Page
 
-This project has a slider where you can choose the payment method and enter the payment page by pressing the payment button
+This project has a slider where you can choose the payment method and enter the payment page by pressing the payment button. This project has a test payment gateway from Zibal.
 
 ![Image](./public/screenShot.png)
 
