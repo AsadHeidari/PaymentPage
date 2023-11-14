@@ -24,4 +24,45 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  direction: rtl;
+}
+
+input[type="radio"]:after {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top: -10px;
+  left: 1px;
+  position: relative;
+  background-color: rgb(30 41 59);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top: -10px;
+  left: 1px;
+  position: relative;
+  background-color: #ababab;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+  width: 12px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+}
+
+.hover:hover {
+  width: 7rem;
+  height: 7rem;
 }
